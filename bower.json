@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-gatech",
+  "version": "0.0.0",
+  "homepage": "https://github.com/GatechVIP/Bootstrap",
+  "authors": [
+    "Stephen Thomas <stephen.thomas@et.gatech.edu>"
+  ],
+  "description": "Themed version of Boostrap that conforms to Georgia Tech's 2015 Style and Markup Requirements",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}
