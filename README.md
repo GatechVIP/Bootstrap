@@ -1,0 +1,1 @@
+A simple HTML/CSS framework based on [Bootstrap](http://getbootstrap.com) for Georgia Tech web sites and applications. The implementation conforms (as much as possible) to Georgia Tech's [_Style and markup requirements for the Georgia Tech web presence_](http://www.comm.gatech.edu/resources/web/development/style-guidelines) as published in September 2015.
