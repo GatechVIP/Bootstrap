@@ -9,31 +9,46 @@
 }
 
 #primary-menus { 
-	background: @gt-buzzGold url("../images/bg-tile-primary-menus.png") repeat-y center center; 
+	background: #E6E6E6; 
 	position: relative; 
-	top: 0; 
 	margin:0 auto;
+	padding:0 0;
 }
 
 #primary-menus ul {
 	list-style-type: none;
 	float:left;
+	margin-left: 20px;
 }
 
 #primary-menus-wrapper { 
 	max-width: 1170px; 
+	background-color:@gt-buzzGold;
+}
+
+#primary-menus-wrapper a:hover{ 
+	color:#fff;
+	background-color:#000;
+}
+
+#primary-menus a{ 
+	color:#00254C;
+	text-decoration: none;
+	font-weight: 400;
 }
 
 #primary-menus li {
 	 display: inline;
 	 float: left;
-	 margin-left:1em;
 }
 
 #utility { 
 	box-shadow: none; 
-	min-height: 45px; 
 	overflow: hidden; 
+}
+
+ul {
+	padding-left:0px;
 }
 
 p { 
@@ -86,10 +101,6 @@ h6 {
 	padding: 10px 10px 20px; 
 }
 
-dl, ol, ul { 
-	margin: .5em 0 .5em 0; 
-}
-
 #masthead { 
 	min-height: 0px; 
 	padding-top: 0px; 
@@ -99,7 +110,7 @@ dl, ol, ul {
 #utility-links .ulink a {
     color: #646464;
     display: block;
-    font-size: .86em;
+    font-size: 0.95em;
     font-weight: 700;
     line-height: 1.2;
     margin: 0 1px 0 0;
@@ -107,7 +118,6 @@ dl, ol, ul {
     position: relative;
     text-decoration: none;
  }
-
 
 #utility-links .ulink a:hover{
 	background-color:@gt-light;
@@ -118,13 +128,20 @@ dl, ol, ul {
 	 float: left;
 }
 
+#utility-links ul {
+	margin:0 0;
+}
+
 #footer {
 	background-color: @gt-buzzGold;
+	padding : 30px 0;
 }
 
 #footer li{
-	float:left;
-	display:inline;
+	float: left;
+	display: inline;
+	padding: 0 1em;
+	font-size: 0.9em;
 }
 
 #footer ul {
@@ -134,4 +151,36 @@ dl, ol, ul {
 #footer ul a{
 	color:@gt-dark;
 	text-decoration: none;
+}
+
+#footer-utility-links {
+	padding: 0 0;
+	float:right;
+}
+
+#footer-utility-links li{
+	float: left;
+	display: inline;
+}
+
+#footer-utility-links a{
+	color:#212121!important;
+	text-decoration: none;
+}
+
+.gt-footer-links-wrapper ul{
+	float:right;
+}
+
+#footer-logo img{
+	width:140px;
+	text-align:center;
+}
+
+#footer-logo {
+	text-align:center;
+}
+
+#main{
+	min-height:100px;
 }
