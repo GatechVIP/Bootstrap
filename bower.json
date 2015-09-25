@@ -1,7 +1,10 @@
 {
   "name": "bootstrap-gatech",
   "version": "0.0.0",
-  "homepage": "https://github.com/GatechVIP/Bootstrap",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GatechVIP/Bootstrap.git"
+  },
   "authors": [
     "Stephen Thomas <stephen.thomas@et.gatech.edu>"
   ],
